@@ -6,7 +6,7 @@ Sorting this file in Sublime Text i could see that max number was 24.
 
 My first approach was to treat this as a image and draw lines from first point to the next, which gave me a gibrish looking image, tried changing magnification but it lead to nothing.
 
-Then i thought these are not lines maybe but set of point so i plotted them. Bingo i got a QR code.The QR code was small 24*24 so i maginified it by plotting a rectangle rather than a point.
+Then i thought these are not lines maybe but set of point so i plotted them. Bingo i got a QR code.The QR code was small 25*25 so i maginified it by plotting a rectangle rather than a point.
 
 ![QR Code](result_m6.jpg)
 

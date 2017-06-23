@@ -7,7 +7,7 @@ import ast
 
 MULIPLIER = 20
 
-im = Image.new('RGBA', (24*MULIPLIER+MULIPLIER, 24*MULIPLIER+MULIPLIER), (255, 255, 255, 0)) 
+im = Image.new('RGBA', (25*MULIPLIER, 25*MULIPLIER), (255, 255, 255, 0)) 
 draw = ImageDraw.Draw(im)
 
 coordinates = [ast.literal_eval(_) for _ in open('m6.data').readlines()]
@@ -25,9 +25,9 @@ coordinates = [ast.literal_eval(_) for _ in open('m6.data').readlines()]
 
 
 # 2nd Approach
-# Worked but image was only 24*24 so i had to enlarge it
+# Worked but image was only 25*25 so i had to enlarge it
 # for xy in coordinates:
-# 	draw.point((xy[0]*10,xy[1]*10), fill=128)
+# 	draw.point((xy[0],xy[1]), fill=128)
 
 # Used rectangle to plot a bigger point
 for xy in coordinates:
