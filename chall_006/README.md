@@ -8,7 +8,7 @@ My first approach was to treat this as a image and draw lines from first point t
 
 Then i thought these are not lines maybe but set of point so i plotted them. Bingo i got a QR code.The QR code was small 24*24 so i maginified it by plotting a rectangle rather than a point.
 
-![QRCode Image](/result_m6.jpg?raw=true "QRCode obtained")
+![QR Code](result_m6.jpg)
 
 Scanned using Barcode Scanner to confirm and then used an [online service](https://zxing.org/w/decode.jspx) to get the answer in text format (I could have typed it but who cares)
 
